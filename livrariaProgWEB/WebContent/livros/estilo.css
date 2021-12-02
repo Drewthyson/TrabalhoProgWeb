@@ -1,0 +1,65 @@
+@charset "UTF-8"
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	width: 100%;
+    height: 95px;
+    background: #A66F3F;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    }
+    
+.cabecalho {
+	margin-top: 30px;
+	font-family:courier,arial,helvetica;
+	padding-right: 10px;
+}
+
+img.carrinho{
+	max-width: 35px;
+}
+
+.iniciocompras{
+	max-width: 130px;
+}
+
+.footer{
+	position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.livros{
+	display: flex;
+}
+
+/* link que ainda não foi visitado */
+a:link {
+   color: blue;
+}
+
+/* link que foi visitado */
+a:visited {
+    color: #A61414;
+}
+
+/* mouse over */
+a:hover {
+    color: #402110;
+}
+
+/* link selecionado */
+a:active {
+    color: blue;
+}
+
+.autores{
+	color: #F2E3B6;
+}
